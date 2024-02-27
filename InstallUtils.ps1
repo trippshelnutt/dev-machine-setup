@@ -3,6 +3,10 @@ choco install windirstat -y
 choco install sysinternals -y
 choco install powertoys -y
 choco install oh-my-posh -y
+choco install nerd-fonts-hasklig -y
+
+Install-Module posh-git
+Install-Module Terminal-Icons
 
 choco install zoom -y
 choco install slack -y
