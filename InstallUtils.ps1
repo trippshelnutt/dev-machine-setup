@@ -5,8 +5,8 @@ choco install powertoys -y
 choco install oh-my-posh -y
 choco install nerd-fonts-hasklig -y
 
-Install-Module posh-git
-Install-Module Terminal-Icons
+Install-Module posh-git -Scope CurrentUser -Force
+Install-Module Terminal-Icons -Scope CurrentUser -Force
 
 choco install zoom -y
 choco install slack -y
